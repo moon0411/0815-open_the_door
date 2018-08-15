@@ -14,9 +14,11 @@ class DoorsTableViewController: UITableViewController {
     
     
     @IBOutlet weak var headerImageView: UIImageView!
+
     @IBOutlet var doorImageViews: [UIImageView]!
+    
     @IBOutlet var textLabels: [UILabel]!
- 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
