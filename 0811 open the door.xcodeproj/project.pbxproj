@@ -12,6 +12,9 @@
 		7398D93F211DF1BE008C7CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7398D93D211DF1BE008C7CB7 /* Main.storyboard */; };
 		7398D941211DF1C0008C7CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7398D940211DF1C0008C7CB7 /* Assets.xcassets */; };
 		7398D944211DF1C0008C7CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7398D942211DF1C0008C7CB7 /* LaunchScreen.storyboard */; };
+		7398D94C211EA88E008C7CB7 /* DoorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398D94B211EA88E008C7CB7 /* DoorsTableViewController.swift */; };
+		7398D94E211EA9C1008C7CB7 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398D94D211EA9C1008C7CB7 /* TextViewController.swift */; };
+		7398D950211EA9DB008C7CB7 /* DoorsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398D94F211EA9DB008C7CB7 /* DoorsFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7398D940211DF1C0008C7CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7398D943211DF1C0008C7CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7398D945211DF1C0008C7CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7398D94B211EA88E008C7CB7 /* DoorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsTableViewController.swift; sourceTree = "<group>"; };
+		7398D94D211EA9C1008C7CB7 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		7398D94F211EA9DB008C7CB7 /* DoorsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				7398D939211DF1BE008C7CB7 /* AppDelegate.swift */,
 				7398D93B211DF1BE008C7CB7 /* ViewController.swift */,
 				7398D93D211DF1BE008C7CB7 /* Main.storyboard */,
+				7398D94B211EA88E008C7CB7 /* DoorsTableViewController.swift */,
+				7398D94D211EA9C1008C7CB7 /* TextViewController.swift */,
+				7398D94F211EA9DB008C7CB7 /* DoorsFile.swift */,
 				7398D940211DF1C0008C7CB7 /* Assets.xcassets */,
 				7398D942211DF1C0008C7CB7 /* LaunchScreen.storyboard */,
 				7398D945211DF1C0008C7CB7 /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7398D94C211EA88E008C7CB7 /* DoorsTableViewController.swift in Sources */,
+				7398D950211EA9DB008C7CB7 /* DoorsFile.swift in Sources */,
 				7398D93C211DF1BE008C7CB7 /* ViewController.swift in Sources */,
 				7398D93A211DF1BE008C7CB7 /* AppDelegate.swift in Sources */,
+				7398D94E211EA9C1008C7CB7 /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
